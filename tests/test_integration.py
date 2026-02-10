@@ -11,7 +11,7 @@ from uuid import uuid4
 
 import pytest
 
-from oro_storage import (
+from our_storage import (
     BackendRegistry,
     ErasureCodec,
     IntegrityVerifier,
@@ -20,8 +20,8 @@ from oro_storage import (
     MerkleTree,
     RedundancyLevel,
 )
-from oro_storage.integrity import verify_proof
-from oro_storage.models import ShardSet
+from our_storage.integrity import verify_proof
+from our_storage.models import ShardSet
 
 
 class TestEndToEndErasureCoding:

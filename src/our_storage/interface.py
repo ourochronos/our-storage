@@ -1,7 +1,7 @@
-"""Public interface for oro-storage.
+"""Public interface for our-storage.
 
-Re-exports the primary public API for the oro-storage brick.
-Consumers should import from here or from the top-level ``oro_storage`` package.
+Re-exports the primary public API for the our-storage brick.
+Consumers should import from here or from the top-level ``our_storage`` package.
 
 The key abstractions:
 

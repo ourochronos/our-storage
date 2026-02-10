@@ -11,14 +11,14 @@ from uuid import uuid4
 
 import pytest
 
-from oro_storage.integrity import (
+from our_storage.integrity import (
     IntegrityVerifier,
     MerkleProof,
     MerkleTree,
     compute_hash,
     verify_proof,
 )
-from oro_storage.models import (
+from our_storage.models import (
     IntegrityReport,
     ShardMetadata,
     ShardSet,

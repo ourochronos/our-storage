@@ -13,7 +13,7 @@ from uuid import uuid4
 
 import pytest
 
-from oro_storage.erasure import (
+from our_storage.erasure import (
     ErasureCodec,
     InsufficientShardsError,
     _gf_div,
@@ -22,7 +22,7 @@ from oro_storage.erasure import (
     _gf_pow,
     _init_galois_tables,
 )
-from oro_storage.models import (
+from our_storage.models import (
     RedundancyLevel,
     ShardSet,
     StorageShard,

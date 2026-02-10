@@ -13,7 +13,7 @@ from uuid import uuid4
 
 import pytest
 
-from oro_storage.backend import (
+from our_storage.backend import (
     BackendRegistry,
     LocalFileBackend,
     MemoryBackend,
@@ -21,8 +21,8 @@ from oro_storage.backend import (
     StorageQuotaExceededError,
     StorageStats,
 )
-from oro_storage.integrity import compute_hash
-from oro_storage.models import (
+from our_storage.integrity import compute_hash
+from our_storage.models import (
     ShardMetadata,
     ShardSet,
     StorageShard,

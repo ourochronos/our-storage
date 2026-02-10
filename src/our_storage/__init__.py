@@ -1,4 +1,4 @@
-"""oro-storage -- Erasure-coded resilient storage with Merkle integrity verification.
+"""our-storage -- Erasure-coded resilient storage with Merkle integrity verification.
 
 This module implements resilient storage providing:
 - Reed-Solomon erasure coding for distributed redundancy
@@ -8,7 +8,7 @@ This module implements resilient storage providing:
 - Pluggable storage backends
 
 Example usage:
-    from oro_storage import (
+    from our_storage import (
         ErasureCodec,
         RedundancyLevel,
         MerkleTree,

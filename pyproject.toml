@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "oro-storage"
+name = "our-storage"
 version = "0.1.0"
 description = "Erasure-coded storage backends with Merkle integrity verification for the ourochronos ecosystem"
 readme = "README.md"
@@ -33,7 +33,7 @@ dev = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/oro_storage"]
+packages = ["src/our_storage"]
 
 [tool.ruff]
 target-version = "py311"
@@ -44,7 +44,7 @@ src = ["src", "tests"]
 select = ["E", "F", "I", "N", "W", "UP", "B", "C4"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["oro_storage"]
+known-first-party = ["our_storage"]
 
 [tool.mypy]
 python_version = "3.11"
@@ -64,7 +64,7 @@ markers = [
 
 [tool.coverage.run]
 branch = true
-source = ["src/oro_storage"]
+source = ["src/our_storage"]
 
 [tool.coverage.report]
 show_missing = true

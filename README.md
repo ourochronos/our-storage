@@ -1,4 +1,4 @@
-# oro-storage
+# our-storage
 
 Erasure-coded storage backends with Merkle integrity verification for the ourochronos ecosystem
 
@@ -9,13 +9,13 @@ _Brief description of what this brick does and why it exists._
 ## Install
 
 ```bash
-pip install oro-storage
+pip install our-storage
 ```
 
 ## Usage
 
 ```python
-from oro_storage import ...
+from our_storage import ...
 ```
 
 ## API
