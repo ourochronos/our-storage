@@ -1,6 +1,6 @@
 # oro-storage
 
-Erasure-coded storage backends with Merkle integrity verification for the orobobos ecosystem
+Erasure-coded storage backends with Merkle integrity verification for the ourochronos ecosystem
 
 ## Overview
 

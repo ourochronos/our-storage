@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "oro-storage"
 version = "0.1.0"
-description = "Erasure-coded storage backends with Merkle integrity verification for the orobobos ecosystem"
+description = "Erasure-coded storage backends with Merkle integrity verification for the ourochronos ecosystem"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.11"
